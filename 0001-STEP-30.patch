@@ -1,0 +1,42 @@
+From b9cbbaf14f824a5a1ca9f3a447d060fe74e494f5 Mon Sep 17 00:00:00 2001
+From: Navya Rawat <shamshersinghrawat@Navyas-MacBook-Pro.local>
+Date: Fri, 2 Mar 2018 21:36:26 +0530
+Subject: [PATCH] STEP 30
+
+---
+ .DS_Store | Bin 0 -> 6148 bytes
+ hello.c   |   1 +
+ 2 files changed, 1 insertion(+)
+ create mode 100644 .DS_Store
+
+diff --git a/.DS_Store b/.DS_Store
+new file mode 100644
+index 0000000000000000000000000000000000000000..1f74083e7918dee1efc40b043d518308205b4981
+GIT binary patch
+literal 6148
+zcmeHKyH3ME5S)WZ1kt3Vypk#sHI0d!f`SHq03|`9aO8^K9pA!N!t8@6#?Vrr*=Tp}
+z_I7;n6y7@kW%atd1{MJ3bVIyZn3}DdPwXT!hQ*)JV~Oou*Kar7r26NCanJCAXLS4>
+z@%s%|>~G!BuRh#30?zS(HEz-3p18ywyV&u-c>l(5nt~LN0#ZN<NC7F}3b1FJ%`XBK
+zrGONW0tW@``%vkIP2v#fpAH5)zT5iD(2QfhOAu?$o5UfIE3^_+Vo*z7F-p*xuUXe5
+z4uL^O@tygc+_~fprTFg5S1(6t0u`lz6c{UT8q<aK|26%W`~R4vnG}!$|4M-}YaiPc
+zUnzU*<mIf_R{9hD%UJ8>45LE;C)SEDkLs$8S=S^Eflg=M=|mj_Oc$9H_zML-0ph$T
+A8~^|S
+
+literal 0
+HcmV?d00001
+
+diff --git a/hello.c b/hello.c
+index e410125..56b1828 100644
+--- a/hello.c
++++ b/hello.c
+@@ -6,6 +6,7 @@ void main(){
+ 	printf("Helloworld!\n");
+ 	printf("This must be a monolithic design\n");
+ 	microkernel_sendmsg("is more portable");
++	printf("Hi, let's create a patch!");
+ }
+ 
+ void microkernel_sendmsg(char *a){
+-- 
+2.14.3 (Apple Git-98)
+
